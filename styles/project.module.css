@@ -1,0 +1,60 @@
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .project {
+    width: 30%;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+  }
+  
+  .name {
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    margin-bottom: 1.5rem;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .linkButton {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #0070f3;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .imageStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    width: 15rem;
+  }
+  
+  .linkButton:hover {
+    background-color: #0049a6;
+  }
+
+  @media (max-width: 768px) {
+    .projects {
+      flex-direction: column;
+      justify-content: space-around !important;
+    }
+
+    .project{
+      width: 100%;
+    }
+  }

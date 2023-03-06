@@ -1,0 +1,20 @@
+.navStyle{
+
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary);
+    justify-content: space-around;
+    list-style: none;
+    padding: 2rem 0;
+    color: var(--white);
+}
+.navStyle li:hover{
+    background-color: var(--black);
+    padding: 0.5rem 0.5rem;
+    border: 2px solid white;
+}
+/* components/Navbar.module.css */
+
+.navbar__logo img {
+    height: 2.5rem;
+  }
